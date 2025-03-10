@@ -1,6 +1,5 @@
-import gianniOrfiniHeadshot from "../assets/mifoto.webp"
 export default function Home({ theme }) {
-  let icon = ["src/assets/icons/mail.svg", "src/assets/icons/github.svg", "src/assets/icons/linkedin.svg"]
+  let icon = ["public/mail.svg", "src/assets/icons/github.svg", "src/assets/icons/linkedin.svg"]
 
   if (theme) {
     icon = icon.map(ico => ico.slice(0, -4) + `-dark.svg`);
@@ -21,7 +20,7 @@ export default function Home({ theme }) {
         </section>
         <section className="right-section">
           <div className="image-container">
-            <img alt="gianni-orfini-headshot" src={gianniOrfiniHeadshot} />
+            <img alt="gianni-orfini-headshot" src="/portfolio/mifoto.webp" />
           </div>
           <div className="contact-me-container">
             <h4>Contactame!</h4>
