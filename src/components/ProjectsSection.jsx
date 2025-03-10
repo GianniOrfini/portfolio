@@ -3,7 +3,7 @@ export default function ProjectsSection({ theme }) {
     name: "Pomodoro Timer",
     source:  "https://gianniorfini.github.io/pomodoro",
     description: "Aplicación web de productividad basada en la técnica Pomodoro, desarrollada por Francesco Cirillo en la década de 1980. Consiste en un timer de 25 minutos de productividad, seguidos de 5 minutos para un descanso corto. Esto se repetirá 4 veces y el usuario tendrá un descanso más largo, de 15 minutos. La aplicación tiene un toggle para cambiar el tema de claro a oscuro, además de tener un sonido para cuando los timers terminan. Si el usuario cierra la pestaña, el timer recordará en qué situación está.",
-    image: "src/assets/screenshots/pomodorolight.jpg",
+    image: "portfolio/screenshots/pomodorolight.jpg",
     key: 1
   }];
 

@@ -33,7 +33,7 @@ export default function AboutSection() {
                             conocimientos ya adquiridos.
                         </p>
                     </div>
-                    <img alt="gianni-orfini-headshot" src="src/assets/mifoto.webp" />
+                    <img alt="gianni-orfini-headshot" src="portfolio/mifoto.webp" />
                 </div>
                 <span id="additional-text" className={textVisibility}>
                     <p>
