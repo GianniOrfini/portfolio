@@ -1,16 +1,47 @@
-export default function Navbar() {
+import React from "react"
+import ThemeToggle from "./ThemeToggle";
+export default function Navbar({ onThemeChange }) {
+    const [isHidden, setIsHidden] = React.useState(true);
+    const [theme, setTheme] = React.useState("");
+    function handleClick() {
+        setIsHidden(!isHidden);
+        console.log(isHidden);
+    }
+
+    let icon = ["src/assets/icons/arrow-right.svg", "src/assets/icons/arrow-left.svg", "src/assets/icons/globe.svg", "src/assets/icons/resume.svg"];
+
+    if (theme) {
+        icon = icon.map(ico => ico.slice(0, -4) + `-dark.svg`);
+    }
+    React.useEffect(() => {
+        onThemeChange(theme);
+    }, [theme]);
+    
     return (
         <header>
-            <div className="header-sections">
-                <p><a href="#home">INICIO</a></p>
-                <p><a href="#projects">PROYECTOS</a></p>
-                <p><a href="#about-me-expanded">SOBRE MI</a></p>
-                <button className="dropdown-menu">V</button>
-            </div>
-            <div className="header-icons">
-                <img src="/file-text.svg" alt="download-resume-pdf" />
-                <img src="/sun.svg" alt="toggle-dark-mode" />
-            </div>
+            <nav>
+                <ul className={`header-sections-${isHidden}`}>
+                    <div className="nav-left-container">
+                        <li><a href="#home">INICIO</a></li>
+                        <li><a href="#projects">PROYECTOS</a></li>
+                        <li><a href="#about-me-expanded">SOBRE MI</a></li>
+                    </div>
+                    <div className="nav-right-container">
+                        <li><button onClick={handleClick} className="dropdown-button"><img src={isHidden ? icon[0] : icon[1]} alt="" /></button></li>
+                    </div>                    
+                </ul>
+                <ul className={`header-icons-${isHidden}`}>
+                    <li><button>
+                        <img src={icon[2]} alt="change-languaje" />
+                    </button></li>
+                    <li><button>
+                        <img src={icon[3]} alt="download-resume-pdf" />
+                    </button></li>
+                    <li>
+                        <ThemeToggle onThemeChange={setTheme}/>
+                    </li>
+                </ul>
+            </nav>
         </header>
     )
 }

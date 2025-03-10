@@ -2,44 +2,44 @@ export default function TechnologyChips() {
 
     const chipList = [{
         name: "HTML",
-        img: "/html-logo.png",
+        img: "src/assets/html-logo.png",
         altText: "html-logo",
         backgroundColor: "#352620"
     }, {
         name: "CSS",
-        img: "/css-logo.png",
+        img: "src/assets/css-logo.png",
         altText: "css-logo",
         backgroundColor: "#18263A"
     }, {
         name: "JavaScript",
-        img: "/js-logo.png",
+        img: "src/assets/js-logo.png",
         altText: "javascript-logo",
         backgroundColor: "#393A25"
     }, {
         name: "React",
-        img: "/react-logo.png",
+        img: "src/assets/react-logo.png",
         altText: "react-logo",
         backgroundColor: "#1C3433"
     }, {
         name: "Vite",
-        img: "/vite-logo.svg",
+        img: "src/assets/vite-logo.svg",
         altText: "vite-logo",
         backgroundColor: "#3f233d"
     }, {
         name: "SASS",
-        img: "/vite-logo.svg",
-        altText: "vite-logo",
-        backgroundColor: "#3f233d"
+        img: "src/assets/sass-logo.png",
+        altText: "sass-logo",
+        backgroundColor: "#452842"
     }, {
         name: "WordPress",
-        img: "/wp-logo.png",
+        img: "src/assets/wp-logo.png",
         altText: "wordpress-logo",
-        backgroundColor: "#3f233d"
+        backgroundColor: "#1d2836"
     }, {
         name: "SQL",
-        img: "/wp-logo.png",
-        altText: "wordpress-logo",
-        backgroundColor: "#3f233d"
+        img: "src/assets/sql-logo.svg",
+        altText: "sql-logo",
+        backgroundColor: "#1d2836"
     }]
 
     function renderChips() {
