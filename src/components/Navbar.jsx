@@ -8,7 +8,7 @@ export default function Navbar({ onThemeChange }) {
         console.log(isHidden);
     }
 
-    let icon = ["portfolio/icons/arrow-right.svg", "portfolio/icons/arrow-left.svg", "portfolio/icons/globe.svg", "portfolio/icons/resume.svg"];
+    let icon = ["/portfolio/icons/arrow-right.svg", "/portfolio/icons/arrow-left.svg", "/portfolio/icons/globe.svg", "/portfolio/icons/resume.svg"];
 
     if (theme) {
         icon = icon.map(ico => ico.slice(0, -4) + `-dark.svg`);

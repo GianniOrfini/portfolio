@@ -1,5 +1,5 @@
 export default function Home({ theme }) {
-  let icon = ["portfolio/icons/mail.svg", "portfolio/icons/github.svg", "portfolio/icons/linkedin.svg"]
+  let icon = ["/portfolio/icons/mail.svg", "/portfolio/icons/github.svg", "/portfolio/icons/linkedin.svg"]
 
   if (theme) {
     icon = icon.map(ico => ico.slice(0, -4) + `-dark.svg`);

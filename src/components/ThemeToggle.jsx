@@ -20,7 +20,7 @@ export default function ThemeToggle({ onThemeChange }) {
 
     return (
         <button onClick={handleClick}>
-            <img src={darkModeEnabled ? "src/assets/icons/sun.svg" : "src/assets/icons/moon.svg"} alt="toggle-dark-mode" />
+            <img src={darkModeEnabled ? "/portfolio/icons/sun.svg" : "/portfolio/icons/moon.svg"} alt="toggle-dark-mode" />
         </button>
     )
 }
