@@ -1,8 +1,29 @@
-# React + Vite
+🖥️ My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio repository! This project is a visual showcase of my work as a web designer.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 View my portfolio: https://gianniorfini.github.io/portfolio/
+
+📂 Features
+
+✅ Responsive design for all devices
+✅ Light and dark theme
+✅ SEO-friendly structure
+✅ Built with HTML, SCSS, JavaScript and React
+
+🏗️ Installation & Setup
+
+To run this project locally:
+
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
+npm install
+npm run dev
+
+📝 About Me
+
+I’m Gianni, a self taught web developer from Argentina who aims at crafting original, modern and functional sites and interfaces for everyday use.
+
+📧 Feel free to reach out on gianlucaorfini@gmail.com
