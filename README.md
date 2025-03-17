@@ -2,13 +2,9 @@
 
 Welcome to my portfolio repository! This project is a visual showcase of my work as a web designer.
 
------
-
 ## 🚀 Live Demo
 
 🔗 View my portfolio: https://gianniorfini.github.io/portfolio/
-
------
 
 ## 📂 Features
 
@@ -16,8 +12,6 @@ Welcome to my portfolio repository! This project is a visual showcase of my work
 ✅ Light and dark theme
 ✅ SEO-friendly structure
 ✅ Built with HTML, SCSS, JavaScript and React
-
------
 
 ## 🏗️ Installation & Setup
 
@@ -27,8 +21,6 @@ To run this project locally:
 cd your-portfolio
 npm install
 npm run dev`
-
------
 
 ## 📝 About Me
 
