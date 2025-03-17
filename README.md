@@ -8,18 +8,18 @@ Welcome to my portfolio repository! This project is a visual showcase of my work
 
 ## 📂 Features
 
-✅ Responsive design for all devices
-✅ Light and dark theme
-✅ SEO-friendly structure
-✅ Built with HTML, SCSS, JavaScript and React
+✅ Responsive design for all devices   
+✅ Light and dark theme   
+✅ SEO-friendly structure   
+✅ Built with HTML, SCSS, JavaScript and React   
 
 ## 🏗️ Installation & Setup
 
 To run this project locally:
 
-`git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
-npm install
+`git clone https://github.com/yourusername/your-portfolio.git   
+cd your-portfolio   
+npm install   
 npm run dev`
 
 ## 📝 About Me
